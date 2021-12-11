@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 const StyledStuff = styled.div`
-.dat {
+.newdata {
     display:flex;
     justify-content: space-around;
     text-align: center;
@@ -45,7 +45,7 @@ return  (
     <div class="name">
         <StyledH1>{data.name}</StyledH1>
      </div>
-    <div class="dat"> 
+    <div class="newdata"> 
         <StyledBirth>Birth year: {data.birth_year}</StyledBirth>
         <StyledThings>Eyes color: {data.eye_color}</StyledThings>
         <StyledThings>Gender: {data.gender}</StyledThings>
